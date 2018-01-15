@@ -1,8 +1,6 @@
 # pabloleomendes/pgbadger
 A pgBadger docker image.
 
-[![pabloleomendes/pgbadger][docker-pulls-image]][docker-hub-url] [![pabloleomendes/pgbadger][docker-stars-image]][docker-hub-url] [![pabloleomendes/pgbadger][docker-size-image]][docker-hub-url] [![pabloleomendes/pgbadger][docker-layers-image]][docker-hub-url]
-
 ## Supported tags and respective `Dockerfile` links
 - `9.2`, `latest` ([Dockerfile](Dockerfile))
 
@@ -17,7 +15,7 @@ This image contains the `pgbadger` executable and is meant for one-off uses. The
 For example, considering `PGBADGER_DATA=/data` and the number of available cores to the container is `4`:
 
 ```sh
-$ docker run --rm uphold/pgbadger /var/log/postgresql/postgresql.log
+$ docker run --rm pabloleomendes/pgbadger /var/log/postgresql/postgresql.log
 ```
 
 Would translate to:
@@ -32,7 +30,7 @@ Here is a sample usage with `docker-compose` that mounts the volumes from a runn
 
 ```yml
 pgbadger:
-  image: uphold/pgbadger
+  image: pabloleomendes/pgbadger
   command: /var/lib/postgresql/data/pg_log/postgresql.log
   volumes:
     - ./cache/pgbadger:/data
