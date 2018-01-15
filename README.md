@@ -1,10 +1,10 @@
-# uphold/pgbadger
+# pabloleomendes/pgbadger
 A pgBadger docker image.
 
-[![uphold/pgbadger][docker-pulls-image]][docker-hub-url] [![uphold/pgbadger][docker-stars-image]][docker-hub-url] [![uphold/pgbadger][docker-size-image]][docker-hub-url] [![uphold/pgbadger][docker-layers-image]][docker-hub-url]
+[![pabloleomendes/pgbadger][docker-pulls-image]][docker-hub-url] [![pabloleomendes/pgbadger][docker-stars-image]][docker-hub-url] [![pabloleomendes/pgbadger][docker-size-image]][docker-hub-url] [![pabloleomendes/pgbadger][docker-layers-image]][docker-hub-url]
 
 ## Supported tags and respective `Dockerfile` links
-- `8.1`, `latest` ([Dockerfile](Dockerfile))
+- `9.2`, `latest` ([Dockerfile](Dockerfile))
 
 ## What is pgBadger?
 
@@ -43,11 +43,11 @@ pgbadger:
 ## Image variants
 The `uphold/pgbadger` image comes in multiple flavors:
 
-### `uphold/pgbadger:latest`
+### `pabloleomendes/pgbadger:latest`
 Points to the latest release available of `pgBadger`.
 
 ### `uphold/pgbadger:<version>`
-Targets a specific version of `pgBadger` (e.g. `8.1`).
+Targets a specific version of `pgBadger` (e.g. `9.2`).
 
 ## Supported Docker versions
 This image is officially supported on Docker version 1.11, with support for older versions provided on a best-effort basis.
@@ -55,10 +55,6 @@ This image is officially supported on Docker version 1.11, with support for olde
 ## License
 [License information](https://github.com/dalibo/pgbadger/blob/master/LICENSE) for the software contained in this image.
 
-[License information](LICENSE) for the [uphold/docker-pgbadger](https://hub.docker.com/r/uphold/pgbadger) docker project.
+[License information](LICENSE) for the [pabloleomendes/docker-pgbadger](https://hub.docker.com/r/pabloleomendes/pgbadger) docker project.
 
-[docker-hub-url]: https://hub.docker.com/r/uphold/pgbadger
-[docker-layers-image]: https://img.shields.io/imagelayers/layers/uphold/pgbadger/latest.svg?style=flat-square
-[docker-pulls-image]: https://img.shields.io/docker/pulls/uphold/pgbadger.svg?style=flat-square
-[docker-size-image]: https://img.shields.io/imagelayers/image-size/uphold/pgbadger/latest.svg?style=flat-square
-[docker-stars-image]: https://img.shields.io/docker/stars/uphold/pgbadger.svg?style=flat-square
+[docker-hub-url]: https://hub.docker.com/r/pabloleomendes/pgbadger
