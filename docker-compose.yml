@@ -1,0 +1,12 @@
+version: '2'
+services:
+  pgbadger:
+    image: pabloleomendes/pgbadger
+    # build: .
+    command: /var/log/postgresql/postgresql-*
+    container_name: pgbadger
+    environment:
+      PGBADGER_DATA: "/data"
+    volumes:
+      - "./pg_log:/var/log/postgresql"
+      - "./data:/data"
